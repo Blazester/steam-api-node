@@ -1,8 +1,7 @@
 # BLAZ-STEAM-API
 ![GitHub top language](https://img.shields.io/github/languages/top/Blazester/steam-api-node?style=for-the-badge)
 ![GitHub all releases](https://img.shields.io/github/downloads/Blazester/steam-api-node/total?style=for-the-badge)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/Blazester/steam-api-node)
-
+![GitHub package.json version](https://img.shields.io/github/package-json/v/Blazester/steam-api-node?style=for-the-badge)
 ## Sigueme en:
 ![GitHub followers](https://img.shields.io/github/followers/Blazester?label=S%C3%ADgueme&style=social)
 
