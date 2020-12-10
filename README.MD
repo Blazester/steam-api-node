@@ -1,5 +1,11 @@
 # BLAZ-STEAM-API
 ![GitHub top language](https://img.shields.io/github/languages/top/Blazester/steam-api-node?style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/Blazester/steam-api-node/total?style=for-the-badge)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/Blazester/steam-api-node)
+
+Sigueme en:
+![GitHub followers](https://img.shields.io/github/followers/Blazester?label=S%C3%ADgueme&style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/BlazesterGG?label=Sigueme&style=social)
 
 Paquete ligero para autenticar al usuario con la Steam api, Utiliza promesas :)
 
@@ -105,4 +111,4 @@ Objeto que contiene todos los datos del usuario. La clave '_json' contiene la re
 
 ## License
 
-MIT 
+![NPM](https://img.shields.io/npm/l/blaz-steam-api?style=for-the-badge)
