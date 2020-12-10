@@ -1,6 +1,6 @@
-# node-steam-openid
+# blaz-steam-api
 
-[![npm version](https://badge.fury.io/js/node-steam-openid.svg)](https://badge.fury.io/js/node-steam-openid)
+[![npm version](https://badge.fury.io/js/node-steam-openid.svg)](https://www.npmjs.com/package/blaz-steam-api)
 [![dependencies](https://david-dm.org/leevihalme/node-steam-openid.svg)](https://david-dm.org/leevihalme/node-steam-openid.svg)
 
 Paquete ligero para autenticar al usuario con la Steam api, Utiliza promesas :)

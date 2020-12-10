@@ -1,8 +1,8 @@
 {
-  "name": "blaz-steam-api-node",
-  "version": "1.0.0",
-  "description": "Libreria para la APi de Steam con la tecnologia de OpenID.",
-  "main": "index.js",
+  "name": "blaz-steam-api",
+  "version": "1.0.1",
+  "description": "Libreria para la API de Steam con la tecnologia de Node JS.",
+  "main": "src/index.js",
   "repository": {
     "url": "https://github.com/Blazester/steam-api-node"
   },
