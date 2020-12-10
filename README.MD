@@ -3,13 +3,13 @@
 [![npm version](https://badge.fury.io/js/node-steam-openid.svg)](https://badge.fury.io/js/node-steam-openid)
 [![dependencies](https://david-dm.org/leevihalme/node-steam-openid.svg)](https://david-dm.org/leevihalme/node-steam-openid.svg)
 
-A lightweight wrapper package around Steam's Authentication API, which supports promises :)
+Paquete ligero para autenticar al usuario con la Steam api, Utiliza promesas :)
 
-## Usage
+## ¿Como se instala?
 
-Install the package by typing `npm i node-steam-openid` in your project folder.
+Instalamos el paquete utilizando `npm i node-steam-openid` o `yarn add node-steam-openid` en la carpeta del tu proyecto.
 
-### Setup
+### Instalacion
 
 ```javascript
 const SteamAuth = require("node-steam-openid");
@@ -21,7 +21,7 @@ const steam = new SteamAuth({
 });
 ```
 
-### Routes
+### Rutas
 
 ```javascript
 app.get("/auth/steam", async (req, res) => {
@@ -40,7 +40,7 @@ app.get("/auth/steam/authenticate", async (req, res) => {
 });
 ```
 
-## Metodos
+## Funciones
 
 ### getRedirectUrl
 

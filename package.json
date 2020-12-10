@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Libreria para la APi de Steam con la tecnologia de OpenID.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "url": "https://github.com/Blazester/steam-api-node"
   },
   "keywords": [
     "Steam",
@@ -16,7 +16,7 @@
     "JWT"
   ],
   "author": "Blazester",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.0",
     "openid": "^2.0.7"
