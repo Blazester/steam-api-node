@@ -1,5 +1,5 @@
 {
-  "name": "steam-api-node",
+  "name": "blaz-steam-api-node",
   "version": "1.0.0",
   "description": "Libreria para la APi de Steam con la tecnologia de OpenID.",
   "main": "index.js",
