@@ -1,18 +1,16 @@
-# blaz-steam-api
-
-[![npm version](https://badge.fury.io/js/node-steam-openid.svg)](https://www.npmjs.com/package/blaz-steam-api)
-[![dependencies](https://david-dm.org/leevihalme/node-steam-openid.svg)](https://david-dm.org/leevihalme/node-steam-openid.svg)
+# BLAZ-STEAM-API
+![GitHub top language](https://img.shields.io/github/languages/top/Blazester/steam-api-node?style=for-the-badge)
 
 Paquete ligero para autenticar al usuario con la Steam api, Utiliza promesas :)
 
 ## ¿Como se instala?
 
-Instalamos el paquete utilizando `npm i node-steam-openid` o `yarn add node-steam-openid` en la carpeta del tu proyecto.
+Instalamos el paquete utilizando `npm i blaz-steam-api` o `yarn add blaz-steam-api` en la carpeta del tu proyecto.
 
 ### Instalacion
 
 ```javascript
-const SteamAuth = require("node-steam-openid");
+const SteamAuth = require("blaz-steam-api");
 
 const steam = new SteamAuth({
   realm: "http://localhost:5000", // Sitio donde el usuario se quiere registrar, es decir, tu dominio de la pagina web
