@@ -1,0 +1,24 @@
+{
+  "name": "steam-api-node",
+  "version": "1.0.0",
+  "description": "Libreria para la APi de Steam con la tecnologia de OpenID.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Steam",
+    "SteamApi",
+    "OpenID",
+    "Artic",
+    "Blazester",
+    "Javascript",
+    "JWT"
+  ],
+  "author": "Blazester",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "openid": "^2.0.7"
+  }
+}
