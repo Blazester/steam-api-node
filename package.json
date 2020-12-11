@@ -1,6 +1,6 @@
 {
   "name": "blaz-steam-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Libreria para la API de Steam con la tecnologia de Node JS.",
   "main": "src/index.js",
   "repository": {
