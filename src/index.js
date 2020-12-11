@@ -105,6 +105,50 @@ class SteamAuth {
       });
     });
   }
+
+
+  async GetFriendList(steamOpenId) {
+    return new Promise(async (resolve, reject) => {
+      // Analizar la SteamID del url obtenido del OpenID
+      const steamId = steamOpenId.replace(
+        "https://steamcommunity.com/openid/id/",
+        ""
+      );
+
+      try {
+        const response = await axios.get(
+          `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${this.apiKey}&steamids=${steamId}`
+        );
+        const players =
+          response.data &&
+          response.data.response &&
+          response.data.response.players;
+
+        if (players && players.length > 0) {
+          // Obtenemos el usuario
+          const player = players[0];
+
+          // Retornamos los datos
+          resolve({
+            _json: player,
+            steamid: steamId,
+            username: player.personaname,
+            name: player.realname,
+            profile: player.profileurl,
+            avatar: {
+              small: player.avatar,
+              medium: player.avatarmedium,
+              large: player.avatarfull
+            }
+          });
+        } else {
+          reject("No se han encontrado jugadores para el SteamID dado.");
+        }
+      } catch (error) {
+        reject("Error en el servidor de Steam: " + error.message);
+      }
+    });
+  }
 }
 
 // Exportamos la clase
