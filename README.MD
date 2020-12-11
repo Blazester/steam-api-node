@@ -3,9 +3,9 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/Blazester/steam-api-node/total?style=for-the-badge)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/Blazester/steam-api-node?style=for-the-badge)
 ## Sigueme en:
-![GitHub followers](https://img.shields.io/github/followers/Blazester?label=S%C3%ADgueme&style=social)
-
-![Twitter Follow](https://img.shields.io/twitter/follow/BlazesterGG?label=Sigueme&style=social)
+[![GitHub followers](https://img.shields.io/github/followers/blazester?label=Sigueme&style=social)](https://github.com/Blazester)
+[![Twitter Follow](https://img.shields.io/twitter/follow/blazestergg?label=Sigueme&style=social)](https://twitter.com/BlazesterGG)
+[![Discord](https://img.shields.io/discord/648638892563628032?label=Discord&style=flat-square)](https://discord.com/invite/7nB83hvZ8y)
 
 Paquete ligero para autenticar al usuario con la Steam api, Utiliza promesas :)
 
